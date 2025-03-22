@@ -20,6 +20,7 @@ private:
 	vector<vector<char>> Table;
 	int turn;
 	bool checkEmpty(int hang, int cot) {
+		Table[hang][cot] = ' ';
 		return Table[hang][cot] = ' ';
 	}
 public:
